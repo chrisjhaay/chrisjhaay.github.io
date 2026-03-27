@@ -500,6 +500,32 @@ section {
   transform: scale(1.04);
 }
 
+.video-section {
+  background: linear-gradient(135deg, #fff8ee 0%, #f6ecdf 100%);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+.video-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 24px;
+  display: grid;
+  gap: 12px;
+  max-width: 720px;
+}
+
+.video-card p {
+  color: var(--muted);
+}
+
+.video-card .primary {
+  width: fit-content;
+}
+
 .cta-strip {
   display: flex;
   flex-wrap: wrap;
@@ -695,6 +721,7 @@ section {
 .track-grid,
 .schedule-grid,
 .gallery-grid,
+.video-section,
 .team-grid,
 .faq-grid,
 .cta-strip {
