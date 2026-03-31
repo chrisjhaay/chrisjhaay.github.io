@@ -15,6 +15,70 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      .attendance-table-wrap {
+        overflow-x: auto;
+        background: #d9d9d9;
+        border: 2px solid #000;
+      }
+
+      .attendance-table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 1280px;
+        background: #d9d9d9;
+        color: #000;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .attendance-table th,
+      .attendance-table td {
+        border: 2px solid #000;
+        padding: 4px 14px;
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 1.05;
+        white-space: nowrap;
+      }
+
+      .attendance-table thead th {
+        font-size: 1.1rem;
+        font-weight: 700;
+      }
+
+      .attendance-table tbody td {
+        font-size: 1.25rem;
+      }
+
+      .attendance-title {
+        text-align: center !important;
+        font-size: 3.3rem !important;
+        padding: 22px 0 !important;
+      }
+
+      .attendance-name-header {
+        width: 34%;
+      }
+
+      .attendance-table thead tr:nth-child(2) th {
+        vertical-align: top;
+        height: 120px;
+      }
+
+      @media (max-width: 900px) {
+        .attendance-table {
+          min-width: 1120px;
+        }
+
+        .attendance-table tbody td {
+          font-size: 1rem;
+        }
+
+        .attendance-title {
+          font-size: 2.2rem !important;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="noise" aria-hidden="true"></div>
@@ -57,7 +121,7 @@
                 <th>MEETING<br />DAY 4<br />9TH FEB</th>
                 <th>MEETING<br />DAY 5<br />12TH FEB</th>
                 <th>MEETING<br />DAY 6<br />27TH FEB</th>
-                <th>MEETIN<br />DAY 7<br />2ND MAR</th>
+                <th>MEETING<br />DAY 7<br />2ND MAR</th>
               </tr>
             </thead>
             <tbody>
